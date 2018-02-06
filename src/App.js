@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './css/reset.css';
 import './css/container.css';
-import './css/opcoesDaPagina.css';
 import './css/opcoesDoCartao.css';
 import './css/botaoSync.css';
-import './css/cartao.css';
 import './App.css';
 import Header from './components/Header/Header';
 import Mural from './components/Mural/Mural';
@@ -15,12 +13,11 @@ class App extends Component {
   render() {
     return (
       <div id="layout">
-        
-      <Header /> 
+        <Header /> 
 
-      <FormNovoCartao />
+        <FormNovoCartao />
 
-      <Mural />
+        <Mural />
     </div>
     );
   }
