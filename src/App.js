@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/reset.css';
 import './css/container.css';
-import './css/opcoesDoCartao.css';
 import './css/botaoSync.css';
 import './App.css';
 import Header from './components/Header/Header';

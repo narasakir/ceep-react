@@ -30,7 +30,7 @@
 	margin-right: .5em;
 }
 
-.opcoesDoCartao-fecha {
+/* .opcoesDoCartao-fecha {
 	background-image: url("../img/close.svg");
 }
 
@@ -40,7 +40,7 @@
 
 .opcoesDoCartao-edita {
 	background-image: url("../img/edit.svg");
-}
+} */
 
 .opcoesDoCartao-radioTipo{
 	display: none;
