@@ -5,10 +5,10 @@ import './css/opcoesDaPagina.css';
 import './css/opcoesDoCartao.css';
 import './css/botaoSync.css';
 import './css/cartao.css';
-import './css/formNovoCartao.css';
 import './App.css';
 import Header from './components/Header/Header';
 import Mural from './components/Mural/Mural';
+import FormNovoCartao from './components/FormNovoCartao/FormNovoCartao';
 
 
 class App extends Component {
@@ -18,10 +18,7 @@ class App extends Component {
         
       <Header /> 
 
-      <form className="formNovoCartao container">
-        <textarea className="formNovoCartao-conteudo" name="formNovoCartao-conteudo" placeholder="Digite aqui"></textarea>
-        <input className="formNovoCartao-salvar" type="submit" value="Salvar"/>
-      </form>
+      <FormNovoCartao />
 
       <Mural />
     </div>
