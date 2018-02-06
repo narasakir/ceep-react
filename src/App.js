@@ -1,38 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/reset.css';
 import './css/container.css';
 import './css/opcoesDaPagina.css';
 import './css/opcoesDoCartao.css';
 import './css/botaoSync.css';
 import './css/mural.css';
-import './css/cabecalho.css';
 import './css/cartao.css';
 import './css/formNovoCartao.css';
 import './App.css';
+import Header from './components/Header/Header';
+
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="layout">
         
-        <header className="cabecalho container">
-        <h1 className="cabecalho-logo">
-          Ceep
-        </h1>
-        <div className="opcoesDaPagina">
-          <input type="search" placeholder="busca" id="busca" className="opcoesDaPagina-opcao"/>
-          <button id="btnMudaLayout" className="opcoesDaPagina-opcao opcoesDaPagina-botao">
-            Linhas
-          </button>
-          <button id="btnAjuda" className="opcoesDaPagina-opcao opcoesDaPagina-botao">
-            ?
-          </button>
-          <button id="btnSync" className="opcoesDaPagina-opcao opcoesDaPagina-botao botaoSync botaoSync--sincronizado">
-
-          </button>
-        </div>
-      </header>
+      <Header /> 
 
       <form className="formNovoCartao container">
         <textarea className="formNovoCartao-conteudo" name="formNovoCartao-conteudo" placeholder="Digite aqui"></textarea>
