@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './opcoesDaPagina.css';
+import BotaoSync from '../BotaoSync/BotaoSync';
 
 class OpcoesDaPagina extends Component{
     render(){
@@ -13,9 +14,7 @@ class OpcoesDaPagina extends Component{
               <button id="btnAjuda" className="opcoesDaPagina-opcao opcoesDaPagina-botao">
                 ?
               </button>
-              <button id="btnSync" className="opcoesDaPagina-opcao opcoesDaPagina-botao botaoSync botaoSync--sincronizado">
-    
-              </button>
+              <BotaoSync />
             </div>
         );
     }
